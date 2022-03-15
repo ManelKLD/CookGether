@@ -1,7 +1,22 @@
 <resources>
     <string name="app_name">Cook\'Gether</string>
+
+    <!-- Page d'accueil-->
     <string name="home">Cook\'Gether</string>
     <string name="homedes">Votre service de plannification de repas</string>
     <string name="btnCon">Connexion</string>
     <string name="btnIns">Inscription</string>
+
+    <!-- Page de connexion-->
+    <string name="Bienvenue">Bienvenue chez Cook\'Gether</string>
+    <string name="msgBienvenue">Connectez-vous pour accéder à votre service de plannification de repas</string>
+    <string name="Login">Connexion</string>
+    <string name="mail">exemple@mail.com</string>
+    <string name="mdp">mot de passe</string>
+    <string name="btn">Se conncter</string>
+    <string name="msgInscription">Vous n\'avez pas de compte ?</string>
+    <string name="inscription">Inscription</string>
+
+
+
 </resources>

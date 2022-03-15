@@ -47,19 +47,23 @@
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:id="@+id/btnCon"
             android:text="@string/btnCon"
             android:layout_alignParentBottom="true"
             android:layout_margin="20dp"
             android:background="@drawable/home_btn"
+            android:onClick="identification"
             />
+
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:id="@+id/btnIns"
             android:text="@string/btnIns"
             android:layout_alignParentBottom="true"
             android:layout_margin="20dp"
             android:background="@drawable/home_btn"
-
+            android:onClick="identification"
             />
 
 
