@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Cook\'Gether</string>
+    <string name="home">Cook\'Gether</string>
+    <string name="homedes">Votre service de plannification de repas</string>
+    <string name="btnCon">Connexion</string>
+    <string name="btnIns">Inscription</string>
 </resources>
