@@ -17,6 +17,10 @@
     <string name="msgInscription">Vous n\'avez pas de compte ?</string>
     <string name="inscription">Inscription</string>
 
-
-
+    <!-- Page d'inscription-->
+    <string name="msgIns">Inscrivez-vous pour accéder au service de plannification de repas</string>
+    <string name="SignIn">Inscription</string>
+    <string name="nom">nom</string>
+    <string name="prenom">prénom</string>
+    <string name="btn2">S\'Inscrire</string>
 </resources>

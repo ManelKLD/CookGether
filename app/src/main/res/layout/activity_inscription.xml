@@ -1,9 +1,156 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".InscriptionActivity">
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:weightSum="4"
+    android:background="@color/colorPrimary">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="48dp"
+            android:layout_centerVertical="true">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="24dp"
+                android:text="@string/Bienvenue"
+                android:textColor="@color/white"
+                android:fontFamily="@font/segoe_ui_bold"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="3dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/segoe_ui_regular"
+                android:text="@string/msgIns"
+                android:textColor="@color/white"
+                android:textSize="18dp" />
+
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:background="@drawable/background_card"
+        android:elevation="36dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="48dp"
+            android:layout_marginTop="50dp"
+            android:fontFamily="@font/seg_ui_semibold"
+            android:text="@string/SignIn"
+            android:textColor="@color/black"
+            android:textSize="26dp"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="0dp"
+            android:orientation="vertical">
+
+<!--
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="52dp"
+                android:layout_marginLeft="48dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="48dp"
+                android:background="@drawable/edit_text_background"
+                android:drawableTint="@color/black"
+                android:fontFamily="@font/seg_ui_semibold"
+                android:hint="@string/nom"
+                android:paddingLeft="26dp"
+                android:paddingRight="26dp"
+                android:id="@+id/nomIns"/>
+
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="52dp"
+                android:layout_marginLeft="48dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="48dp"
+                android:background="@drawable/edit_text_background"
+                android:drawableTint="@color/black"
+                android:fontFamily="@font/seg_ui_semibold"
+                android:hint="@string/prenom"
+                android:paddingLeft="26dp"
+                android:paddingRight="26dp"
+                android:id="@+id/prenomIns"/>
+-->
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="52dp"
+                android:layout_marginLeft="48dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="48dp"
+                android:background="@drawable/edit_text_background"
+                android:drawableTint="@color/black"
+                android:fontFamily="@font/seg_ui_semibold"
+                android:hint="@string/mail"
+                android:inputType="textEmailAddress"
+                android:paddingLeft="26dp"
+                android:paddingRight="26dp"
+                android:id="@+id/mailIns"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="52dp"
+                android:layout_marginLeft="48dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="48dp"
+                android:background="@drawable/edit_text_background"
+                android:drawableTint="@color/black"
+                android:fontFamily="@font/seg_ui_semibold"
+                android:hint="@string/mdp"
+                android:paddingLeft="26dp"
+                android:paddingRight="26dp"
+                android:id="@+id/mdpIns"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="30dp"
+                android:layout_weight="1"
+                android:background="@drawable/button_background"
+                android:fontFamily="@font/seg_ui_semibold"
+                android:text="@string/btn2"
+                android:textAllCaps="true"
+                android:textColor="@color/white"
+                android:textSize="16dp"
+                android:id="@+id/DBins"/>
+        </LinearLayout>
+
+
+
+
+
+
+    </RelativeLayout>
+
+
+</LinearLayout>

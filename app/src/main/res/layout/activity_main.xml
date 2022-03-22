@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/background_image"
+    android:background="@drawable/background_image2"
     tools:context=".MainActivity"
     android:orientation="vertical"
     >
@@ -53,6 +53,7 @@
             android:layout_margin="20dp"
             android:background="@drawable/home_btn"
             android:onClick="identification"
+            android:textColor="@color/white"
             />
 
         <Button
@@ -64,6 +65,7 @@
             android:layout_margin="20dp"
             android:background="@drawable/home_btn"
             android:onClick="identification"
+            android:textColor="@color/white"
             />
 
 
